@@ -1,0 +1,180 @@
+.jocarsa-editor-contenedor{
+	border:1px solid #d6d6d6;
+	background:#ffffff;
+	margin-bottom:20px;
+	font-family:Arial,sans-serif;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.jocarsa-editor-textarea-oculto{
+	display:none;
+}
+
+.jocarsa-editor-barra{
+	display:flex;
+	align-items:center;
+	gap:8px;
+	padding:10px;
+	border-bottom:1px solid #e2e2e2;
+	background:#f7f7f7;
+	flex-wrap:wrap;
+}
+
+.jocarsa-editor-barra button,
+.jocarsa-editor-barra select,
+.jocarsa-editor-barra input[type="color"]{
+	height:36px;
+	padding:6px 10px;
+	border:1px solid #d0d0d0;
+	background:#ffffff;
+	cursor:pointer;
+	font-size:14px;
+	border-radius:6px;
+	transition:background 0.15s ease,border-color 0.15s ease,box-shadow 0.15s ease;
+}
+
+.jocarsa-editor-barra button:hover,
+.jocarsa-editor-barra select:hover,
+.jocarsa-editor-barra input[type="color"]:hover{
+	background:#f0f0f0;
+	border-color:#bdbdbd;
+}
+
+.jocarsa-editor-barra button:focus,
+.jocarsa-editor-barra select:focus,
+.jocarsa-editor-barra input[type="color"]:focus{
+	outline:none;
+	border-color:#8aa4d6;
+	box-shadow:0 0 0 3px rgba(138,164,214,0.15);
+}
+
+.jocarsa-editor-barra input[type="color"]{
+	padding:3px;
+	width:42px;
+	min-width:42px;
+}
+
+.jocarsa-editor-separador{
+	width:1px;
+	height:24px;
+	background:#d8d8d8;
+	margin:0 2px;
+}
+
+.jocarsa-editor-editor{
+	min-height:250px;
+	padding:20px;
+	outline:none;
+	overflow:auto;
+	line-height:1.55;
+	font-size:15px;
+	color:#222222;
+}
+
+.jocarsa-editor-editor:focus{
+	background:#fffefa;
+}
+
+.jocarsa-editor-editor h1,
+.jocarsa-editor-editor h2,
+.jocarsa-editor-editor h3,
+.jocarsa-editor-editor h4,
+.jocarsa-editor-editor h5,
+.jocarsa-editor-editor h6{
+	margin-top:0.9em;
+	margin-bottom:0.45em;
+	line-height:1.2;
+	font-weight:700;
+}
+
+.jocarsa-editor-editor h1{ font-size:2em; }
+.jocarsa-editor-editor h2{ font-size:1.7em; }
+.jocarsa-editor-editor h3{ font-size:1.45em; }
+.jocarsa-editor-editor h4{ font-size:1.25em; }
+.jocarsa-editor-editor h5{ font-size:1.1em; }
+.jocarsa-editor-editor h6{ font-size:1em; }
+
+.jocarsa-editor-editor p{
+	margin-top:0.5em;
+	margin-bottom:0.75em;
+}
+
+.jocarsa-editor-editor ul,
+.jocarsa-editor-editor ol{
+	margin:0.7em 0 0.9em 1.6em;
+	padding:0;
+}
+
+.jocarsa-editor-editor li{
+	margin:0.25em 0;
+}
+
+.jocarsa-editor-editor blockquote{
+	margin:1em 0;
+	padding:12px 16px;
+	border-left:4px solid #c7c7c7;
+	background:#f7f7f7;
+	color:#444444;
+	font-style:italic;
+}
+
+.jocarsa-editor-editor hr{
+	border:none;
+	border-top:1px solid #d8d8d8;
+	margin:1.2em 0;
+}
+
+.jocarsa-editor-editor a{
+	color:#1e5bbf;
+	text-decoration:underline;
+}
+
+.jocarsa-editor-editor table,
+.jocarsa-editor-tabla{
+	width:100%;
+	border-collapse:collapse;
+	margin:1em 0;
+	table-layout:fixed;
+}
+
+.jocarsa-editor-editor table td,
+.jocarsa-editor-editor table th,
+.jocarsa-editor-tabla td,
+.jocarsa-editor-tabla th{
+	border:1px solid #cfcfcf;
+	padding:10px 12px;
+	vertical-align:top;
+	min-width:60px;
+}
+
+.jocarsa-editor-editor table th,
+.jocarsa-editor-tabla th{
+	background:#f3f3f3;
+	font-weight:700;
+}
+
+.jocarsa-editor-editor img{
+	max-width:100%;
+	height:auto;
+}
+
+.jocarsa-editor-editor code{
+	background:#f1f1f1;
+	padding:2px 5px;
+	border-radius:4px;
+	font-family:Consolas, Monaco, monospace;
+	font-size:0.95em;
+}
+
+.jocarsa-editor-editor pre{
+	background:#f5f5f5;
+	padding:14px;
+	border:1px solid #e1e1e1;
+	border-radius:8px;
+	overflow:auto;
+	font-family:Consolas, Monaco, monospace;
+	font-size:14px;
+	line-height:1.45;
+}
